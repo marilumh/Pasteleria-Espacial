@@ -1,0 +1,17 @@
+h1{
+    color: crimson;
+    
+}
+body{
+    background: linear-gradient(pink, purple );
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pedido{
+    margin: 50px auto;
+    width: 1000px;
+    padding: 30px;
+}

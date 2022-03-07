@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Espacial</title>
+    <link href="estilos.css" rel="stylesheet"/> 
+</head>
+<body>
+    <div class="centrado">
+        <img src="logo.png" alt="logo pasteleria" width="300px"/>
+    </div>
+    <h1>Bienvenido</h1>
+
+    <h2>Tamaño de los Pasteles</h2>
+    <p>Pastel Grande -------------------------------- $400</p>
+    <p>Pastel Mediano -------------------------------- $300</p>
+    <p>Pstel Chico ----------------------------------- $ 200</p>
+    
+    <div class="pedido">
+    <form>
+        <fieldset>
+        <legend>Realiza tu pedido</legend>
+
+        <label for="comentario">Descripcion del Pastel:</label><br/>
+        <textarea id="comemtario" name="comentario" rows="2" cols="60" placeholder="Describe detalladamente tu pedido"></textarea><br/>
+        <br/>
+
+        <label>Tamaño del Pastel: </label><br/>
+        <input type="radio" id="grande" name="pastel" value="gande"/>
+        <label for="grande">Pastel Gande ---------------- $400</label><br/>
+        <input type="radio" id="medianao" name="pastel" value="mediano"/>
+        <label for="mediano">Pastel Mediano -------------- $300</label><br/>
+        <input type="radio" id="chico" name="pastel" value="chico"/>
+        <label for="chico">Pastel Chico ------------------ $200</label><br/>
+
+        <label>Sabores de Patel: </label><br/>
+        <input type="checkbox" id="chocolate" name="pastel" value="chocolate"/>
+        <label for="chocolate">Chocolate</label><br/>
+        <input type="checkbox" id="vainilla" name="pastel" value="vainilla"/>
+        <label for="vainilla">Vainilla</label><br/>
+        <input type="checkbox" id="fresa" name="pastel" value="fresa"/>
+        <label for="fresa">Fresa</label><br/>
+        <input type="checkbox" id="coco" name="pastel" value="coco"/>
+        <label for="coco">Coco</label><br/>
+
+        <label>Relleno del Pastel: </label><br/>
+        <input type="checkbox" id="durazno" name="relleno" value="durazno"/>
+        <label for="durazno">Durazno</label><br/>
+        <input type="checkbox" id="kiwi" name="relleno" value="kiwi"/>
+        <label for="wiki">Wiki</label><br/>
+        <input type="checkbox" id="fresa" name="relleno" value="fresa"/>
+        <label for="fresa">Fresa</label><br/>
+
+        <label>Adornos: </label><br/>
+        <input type="checkbox" id="lestars3d" name="adorno" value="letras3d"/>
+        <label for="letras3d">Letras 3D</label><br/>
+        <input type="checkbox" id="flores" name="adorno" value="flores"/>
+        <label for="flores">Flores</label><br/>
+        <input type="checkbox" id="dibujosanimados" name="adorno" value="dibujosanimados"/>
+        <label for="dibujosanimados">Dibujos Animados</label><br/>
+        <br/>
+
+        <label for="mensaje">Mensaje:</label><br/>
+        <textarea id="mensaje" name="mensaje" rows="2" cols="50" placeholder="Requieres que tu pastel lleve algun mensaje por ejemplo: Feliz Cumpleñaos "></textarea><br/>
+        <br/>
+
+        <label>Datos Personales.</label><br/>
+        <br/>
+        <label for="nombre">Nombre: </label><br/>
+        <input type="text" id="nombre" name="nombre"
+            placeholder="Escribe tu Nombre" required="true"><br/>
+       <br/> 
+        <label for="apellido">Apellido: </label><br/>
+        <input type="text" id="apellido" name="apellido"
+            placeholder="Escribe tu Apellido" required="true"><br/>
+        <br/>
+        <label for="contacto">Contacto: </label><br/>
+        <input type="text" id="contacto" name="contacto"
+            placeholder="Numero telenofico" required="true"><br/>
+        <br/>
+        <label for="corre">Correo Electronico: </label><br/>
+        <input type="text" id="correo" name="correo"
+            placeholder="Correo electronico" required="true"><br/>
+        <br/>
+
+
+        <label>Dirección de Entrega</label><br/>
+        <br/>
+        <label for="calle">Calle principal: </label><br/>
+        <input type="text" id="calle" name="calle"
+            placeholder="Calle principal" required="true"><br/>
+        <br/>
+        <label for="exterior">Numero Exterior: </label><br/>
+        <input type="number" id="exterior" name="exterior"
+            placeholder="Número Exterior" required="true"><br/>
+        <br/>
+        <label for="calles">Entre Calles: </label><br/>
+        <input type="text" id="calle1" name="calle1"
+            placeholder="Calle" required="true"><br/>
+        <br/>   
+        <input type="text" id="calle2" name="calle2"
+            placeholder="Calle" required="true"><br/>
+        <br/>
+        <label for="colonia">Colonia: </label><br/>
+        <input type="text" id="colonia" name="colonia"
+            placeholder="Colonia" required="true"><br/>
+
+        <br/>   
+        <input type="submit" value="Enviar"/> 
+        <input type="reset" value="Restablecer"/>
+
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>

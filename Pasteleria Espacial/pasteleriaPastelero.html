@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Espacial</title>
+</head>
+<body>
+    <h1>Pasteleria Espacial</h1>
+    
+    <!--
+        El formulario debe de contener los datos de contacto del cliente que son Nombre, Teléfono, 
+        Correo Electrónico, Descripción general del pastel y la selección de sabores y adornos.
+    -->
+
+    <h2>Datos de contacto</h2>
+
+    <label>Nombre</label>
+    <input type="text" id="nombre" name="nombre">
+    <br>
+    <label>Apellidos</label>
+    <input type="text" id="apellidos" name="apellidos">
+    <br>
+    <label>Correo electronico</label>
+    <input type="email" id="Correo" name="correo">
+    <br>
+    <label>Descripción del pastel</label>
+    <br>
+    <textarea id="descripcion" name="descripcion"></textarea>
+    <br>
+    <input type ="submit" id="enviar">
+<!--
+    El pastelero necesita tener la información de la cantidad de sabores que le quedan para hacer los pasteles.
+-->
+<h2>Sabores disponibles</h2>
+<br>
+
+<br>
+<input type="checkbox" id="chocolate" name="sabores" value="chocolate" checked>
+<label for="chocolate">Chocolate</label><br>
+
+<br>
+<input type="checkbox" id="fresa" name="sabores" value="fresa" >
+<label for="fresa">Fresa</label><br>
+
+<br>
+<input type="checkbox" id="limon" name="sabores" value="limon" checked>
+<label for="limon">Limón</label><br>
+
+<br>
+<input type="checkbox" id="moka" name="sabores" value="moka" >
+<label for="moka">Moka</label><br>
+
+<br>
+<input type="checkbox" id="vainilla" name="sabores" value="vainilla" checked>
+<label for="vainilla">Vainilla</label><br>
+
+<br>
+<input type="checkbox" id="coco" name="sabores" value="coco" >
+<label for="coco">Coco</label><br>
+
+
+<!--
+    El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.
+-->
+<h2>Ardonos disponibles</h2>
+<br>
+
+<br>
+<input type="checkbox" id="foto" name="adornos" value="foto" checked>
+<label for="foto">Foto</label><br>
+
+<br>
+<input type="checkbox" id="perlas" name="adornos" value="perlas" >
+<label for="perlas">Perlas</label><br>
+
+<br>
+<input type="checkbox" id="letras" name="adornos" value="letras" checked>
+<label for="letras">Letras en 3D</label><br>
+
+<br>
+<input type="checkbox" id="flores" name="adornos" value="flores" checked>
+<label for="flores">Flores</label><br>
+
+<br>
+<input type="checkbox" id="figura" name="adornos" value="figura" checked>
+<label for="figura">Figuras en 3D</label><br>
+
+<br>
+<input type="checkbox" id="letrero" name="letrero" value="coco" >
+<label for="letrero">Letro feliz cumpleaños</label><br>
+<!--
+    El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.   
+-->
+<h2>Pedidos realizados </h2>
+<br>
+
+<table border="1px" class="default" >
+
+    <tr>
+      <th>Pedidos Enero</th>
+      <th>Pedidos Febrero</th>
+      <th>Pedidos Marzo</th>
+    </tr>
+  
+    <tr>
+      <td>Pastel de chocolate con letras 3D "Feliz cumpleaños Gorje"</td>
+      <td>Pastel de chocolate con letras 3D "Feliz cumpleaños Gorje"</td>
+      <td>Pastel de chocolate con letras 3D "Feliz cumpleaños Gorje"</td>
+    </tr>
+  
+    <tr>
+  
+      <td>Pastel de chocolate con letras 3D "Feliz cumpleaños Gorje"</td>
+      <td>Pastel de chocolate con letras 3D "Feliz cumpleaños Gorje"</td>
+      <td>Pastel de chocolate con letras 3D "Feliz cumpleaños Gorje"</td>
+    </tr>
+  
+
+  
+  </table>
+
+<h2>Datos de la pasteleria </h2>
+
+<!--
+    La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
+-->
+<p>Pasteleria Márquez <br>
+    AV. Ruiz cortinez #255 <br>
+    entre Costal azul y Costa verde<br>
+    sucursal #25<br>
+    Contacto 22-93-63-72-48
+</p>
+</body>
+</html>
